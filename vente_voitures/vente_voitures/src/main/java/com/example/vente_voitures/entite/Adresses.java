@@ -1,16 +1,16 @@
-package com.example.vente_voitures;
+package com.example.vente_voitures.entite;
 
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Voitures {
+public class Adresses {
     @Id
     private int id;
     private String name;
 
-    public Voitures() {
+    public Adresses() {
     }
 
     public int getId() {
